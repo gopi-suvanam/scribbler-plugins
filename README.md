@@ -95,13 +95,7 @@ await import("https://cdn.jsdelivr.net/gh/gopi-suvanam/scribbler-plugins/react-p
 
 We welcome contributions from the community! If you'd like to add a new plugin or improve an existing one, feel free to fork this repository and submit a pull request. Please make sure to follow the contribution guidelines.
 
-## Future Plans
 
-This repository is designed to evolve with Scribbler. As new requirements and ideas emerge, we plan to add more plugins that enhance the Scribbler experience. Some ideas on the roadmap include:
-
-- **Markdown Plugin**: Support for Markdown rendering directly within Scribbler.
-- **Charting Plugin**: Integration with popular charting libraries for data visualization.
-- **Custom Language Plugins**: Support for languages like Ruby, Go, or Rust in Scribbler.
 
 ## License
 
