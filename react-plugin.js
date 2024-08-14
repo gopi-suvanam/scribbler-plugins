@@ -1,7 +1,5 @@
-await Promise.all([
-    import('https://unpkg.com/react@17/umd/react.production.min.js'),
-    import('https://unpkg.com/react-dom@17/umd/react-dom.production.min.js'),
-  ]);
+await import('https://unpkg.com/react@17/umd/react.production.min.js');
+await  import('https://unpkg.com/react-dom@17/umd/react-dom.production.min.js');
 if (typeof Babel === 'undefined') {
   	// Babel is not defined, load it
 	await import("https://unpkg.com/@babel/standalone/babel.min.js");
