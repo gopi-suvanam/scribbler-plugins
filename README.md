@@ -49,7 +49,7 @@ The **Python Plugin** will bring Python support to Scribbler using the `//>pytho
 To install a plugin, include it in your Scribbler notebook using the appropriate `<script>` tag from a CDN or local path. Each plugin's usage instructions will provide detailed steps on how to integrate it into your workflow.
 
 ```javascript
-import("https://cdn.jsdelivr.net/gh/gopi-suvanam/scribbler-plugins/react-plugin.min.js")
+await import("https://cdn.jsdelivr.net/gh/gopi-suvanam/scribbler-plugins/react-plugin.min.js")
 ```
 
 ## Contributing
