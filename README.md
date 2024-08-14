@@ -36,11 +36,50 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 3. The plugin automatically handles the transpilation of JSX to JavaScript and the loading of React libraries.
 
-### 2. TypeScript Plugin (Coming Soon)
+### 2. MathJax Plugin 
+
+To load the `MathJax-Plugin` in Scribbler and use it, you can dynamically import the plugin using the `import()` function. This plugin will enable you to easily render mathematical expressions within your Scribbler notebook using LaTeX syntax.
+
+### **How to Load MathJax-Plugin in Scribbler**
+
+You can load the `MathJax-Plugin` dynamically with the following steps:
+
+1. **Import the Plugin:**
+   Use the `import()` function to load the `MathJax-Plugin` from the specified URL.
+```javascript
+// Step 1: Dynamically import the MathJax-Plugin
+await import("https://cdn.jsdelivr.net/gh/gopi-suvanam/scribbler-plugins/mathjax-plugin.js");
+```
+
+2. **Use the Plugin to Render Math:**
+   After loading the plugin, you can write mathematical expressions using LaTeX syntax, and the plugin will automatically render them.
+
+Here’s how to do it:
+
+
+```
+This is an inline math example: `E = mc^2`
+
+This is a block math example:
+\\[
+\\frac{a}{b} + \\frac{b}{c} = \\frac{a + b + c}{abc}
+\\]
+```
+
+Here is another block example:
+
+```
+### 5. Statistics
+<p>\(\mu = \frac{\sum x_i}{n}\)</p>
+<p>\(\sigma^2 = \frac{\sum (x_i - \mu)^2}{n - 1}\)</p>
+<p>\(P(X = x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}\)</p>
+```
+
+### 3. TypeScript Plugin (Coming Soon)
 
 The **TypeScript Plugin** will allow you to write TypeScript directly in Scribbler using the `//>ts` directive. The plugin will handle the transpilation from TypeScript to JavaScript, enabling type-safe development within your notebooks.
 
-### 3. Python Plugin (Coming Soon)
+### 4. Python Plugin (Coming Soon)
 
 The **Python Plugin** will bring Python support to Scribbler using the `//>python` directive. This plugin will enable running Python code directly within Scribbler, leveraging in-browser Python runtimes.
 
