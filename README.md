@@ -108,5 +108,6 @@ This repository is licensed under the MIT License. Feel free to use, modify, and
 
 ## Contact
 
-For any questions or feedback, please open an issue in the repository or reach out to the Scribbler community.
+For any questions or feedback, please open an issue in the repository or reach out to the Scribbler community. [Join our discord server](join.scribbler.live).
+
 
