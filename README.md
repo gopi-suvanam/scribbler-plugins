@@ -20,8 +20,12 @@ The **React Plugin** allows Scribbler users to work with React and JSX effortles
 #### How to Use
 
 1. Include the React Plugin in your Scribbler notebook.
+```
+// Step 1: Dynamically import the MathJax-Plugin
+await import("https://cdn.jsdelivr.net/gh/gopi-suvanam/scribbler-plugins/react-plugin.js");
+```
 
-2. Use the `//>jsx` directive in your code blocks to write JSX.
+3. Use the `//>jsx` directive in your code blocks to write JSX.
 
 ```javascript
 //>jsx
